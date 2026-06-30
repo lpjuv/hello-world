@@ -9,8 +9,8 @@
  */
 
 // ----- 引脚定义（避开板载LED的GPIO2）-----
-const int ledA = 15;    // 红灯（或任意颜色）
-const int ledB = 16;    // 蓝灯（或任意颜色）
+const int ledA = 4;    // 红灯（或任意颜色）
+const int ledB = 2;    // 蓝灯（或任意颜色）
 
 // ----- PWM设置 -----
 const int freq = 5000;
